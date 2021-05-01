@@ -1,0 +1,12 @@
+import streamlit as st
+import yfinance as yf
+import mplfinance as mpf
+import yahoo_fin.stock_info as yfs
+import datetime as dt
+import pandas as pd
+import talib
+import requests
+from urllib.request import urlopen, Request
+from bs4 import BeautifulSoup
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from PIL import Image
